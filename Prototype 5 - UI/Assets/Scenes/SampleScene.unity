@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 378815958}
   - component: {fileID: 378815961}
   - component: {fileID: 378815960}
+  - component: {fileID: 378815962}
   m_Layer: 0
   m_Name: Good 1
   m_TagString: Good
@@ -313,7 +314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378815957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.62, y: -3.31, z: 0}
+  m_LocalPosition: {x: 0.92, y: -3.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -367,6 +368,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &378815962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378815957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aefd0a3dbccecb40ab53024a2e3f45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointValue: 1
+  MinSpeed: 10
+  MaxSpeed: 20
+  MaxTorque: 10
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +480,7 @@ GameObject:
   - component: {fileID: 702705957}
   - component: {fileID: 702705956}
   - component: {fileID: 702705955}
+  - component: {fileID: 702705959}
   m_Layer: 0
   m_Name: Bad 2
   m_TagString: Bad
@@ -584,6 +602,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &702705959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702705954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aefd0a3dbccecb40ab53024a2e3f45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointValue: 1
+  MinSpeed: 10
+  MaxSpeed: 20
+  MaxTorque: 10
 --- !u!1 &1105621603
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +630,7 @@ GameObject:
   - component: {fileID: 1105621604}
   - component: {fileID: 1105621607}
   - component: {fileID: 1105621606}
+  - component: {fileID: 1105621608}
   m_Layer: 0
   m_Name: Good 2
   m_TagString: Good
@@ -717,6 +752,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1105621608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105621603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aefd0a3dbccecb40ab53024a2e3f45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointValue: 1
+  MinSpeed: 10
+  MaxSpeed: 20
+  MaxTorque: 10
 --- !u!1 &1146447914
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,8 +823,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 150964453
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.4554112, g: 0.8113208, b: 0.56375176, a: 1}
@@ -813,6 +864,7 @@ GameObject:
   - component: {fileID: 1460383079}
   - component: {fileID: 1460383078}
   - component: {fileID: 1460383077}
+  - component: {fileID: 1460383081}
   m_Layer: 0
   m_Name: Bad 1
   m_TagString: Bad
@@ -934,6 +986,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1460383081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460383076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aefd0a3dbccecb40ab53024a2e3f45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointValue: 1
+  MinSpeed: 10
+  MaxSpeed: 20
+  MaxTorque: 10
 --- !u!1 &1477959954
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +1014,7 @@ GameObject:
   - component: {fileID: 1477959955}
   - component: {fileID: 1477959958}
   - component: {fileID: 1477959957}
+  - component: {fileID: 1477959959}
   m_Layer: 0
   m_Name: Good 3
   m_TagString: Good
@@ -1013,7 +1082,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477959954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.62, y: -3.23, z: 0}
+  m_LocalPosition: {x: -6.62, y: -8.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1067,3 +1136,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1477959959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477959954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aefd0a3dbccecb40ab53024a2e3f45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointValue: 1
+  MinSpeed: 10
+  MaxSpeed: 20
+  MaxTorque: 10
